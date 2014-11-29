@@ -1,0 +1,23 @@
+{
+	"snippets": {
+		"variables": {
+			"lang": "de"
+		},
+
+		"html": {
+			"abbreviations": {
+				"header+": "header>nav>ul.menu>li*3>a",
+				"!:s": "html:5s",
+				"!:l": "html:5l",
+				"html:5s":   "!!!+doc:s[lang=${lang}]",
+				"html:5l":   "!!!+doc:l[lang=${lang}]",
+				"doc:s": "html>(head>meta[charset=${charset}]+title{${1:Document}}+style{${newline}${2}${newline}})+body",
+				"doc:l": "html>(head>meta[charset=${charset}]+title{${1:Document}}+link:css)+body",
+			}
+		}
+	},
+	
+	"preferences": {
+		"format.noIndentTags": "style"
+	},
+}
